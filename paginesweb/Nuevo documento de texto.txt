@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Espacios en blanco arbitrados</title>
+    </head>
+        <h1>Caracteristicas de los planetas</h1>
+        <pre>Nombre </pre>

@@ -8,6 +8,7 @@
         <form action="https://ptsv2.com/t/smx2m08/post" method="post">
             <style>
                 fieldset{width: 30%;}
+                textarea{width: 60px;height: 30px;}
             </style>
             <fieldset>
                 <legend>Datos de la persona</legend>
@@ -23,9 +24,18 @@
                 <br/><input type="text" name="dni" value="" />
                 <br/>
             </fieldset>
-            <br/><label>Escribe tu curriculum</label>
+            
             <br/>
-            <textarea name="escribe tu curriculum" id="curriculum" cols="60" rows="30"></textarea>
+            <br/><label for="so">tipo de genero</label>
+            <br/>
+            <select id="so" name="so">
+                <option value="" selected="selected">selecciona -</option>
+                <option value="pokemon">pokemon</option>
+                <option value="hombre">hombre</option>
+                <option value="mujer">mujer</option>
+            </select>
+            <br/><label>Escribe tu curriculum</label>
+            <br/><textarea name="escribe tu curriculum" id="curriculum" ></textarea>
             <br/>
             Campo checkbox
             <br/><input name="estado_soltero" type="checkbox" value="soltero" />soltero

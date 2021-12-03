@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>formulario</title>
+    </head> 
+    <style>
+        h1{text-align: center;color: green;}
+        #t1{width: 30%;background-color: greenyellow;}
+        #t2{width: 30%;background-color: orange;}
+        #t3{width: 30%;background-color: turquoise;}
+        #t4{width: 30%;background-color: pink;}
+        #t5{width: 30%;background-color: grey;}
+    </style>
+    <body>
+        <h1>Curriculum</h1>
+        <fieldset id="t1">
+            <legend><u><b>Informacion Basica</b></u></b></legend>
+            Nombre
+            <br/><input type="text" name="Nombre" value=""/>
+            <br/>
+            Altura en cm
+            <br/><input type="number" name="Altura en Centimetros" value=""/>
+            <br/>
+            email
+            <br/><input type="text" name="email" value="" />
+            <br/>
+            fecha de nacimiento
+            <br/><input type="date" name="fecha de nacimiento" value="" />
+        </fieldset>
+        <fieldset id="t2">
+            <legend><b><u>Nacionalidad</u></b></legend>
+            <br/>
+            Española
+            <input type="radio" name="Nacionalidad" value="Española" />
+            No Communitario
+            <input type="radio" name="Nacionalidad" value="No Communitario" />
+            Communitario
+            <input type="radio" name="Nacionalidad" value="Communitario(UE)" />
+        </fieldset>
+        <fieldset id="t3">
+            <legend><u><b><label for="so">Estudios</label></b></u></legend>
+            <br/>
+            <select id="so" name="so">
+                <option value="" selected="selected">selecciona -</option>
+                <option value="Gm">Gm</option>
+                <option value="ESO">ESO</option>
+                <option value="BTX">BTX</option>
+            </select>
+        </fieldset>
+        <fieldset id="t4">
+            <legend><u><b>Idiomas</b></u></legend>
+            <br/><input name="Español" type="checkbox" value="Español" />Español
+            <br/><input name="Catalan" type="checkbox" value="Catalan" />Catalan
+            <br/><input name="Ingles" type="checkbox" value="Ingles" />Ingles
+            <br/>
+        </fieldset>
+        <fieldset id="t5">
+            <input type="submit" value="Enviar"/>
+        </fieldset>
+        
